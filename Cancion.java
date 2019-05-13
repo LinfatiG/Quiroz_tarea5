@@ -1,75 +1,24 @@
 package model.dominioProblema;
 
 
-/**
- * <!-- begin-user-doc -->
- * <!--  end-user-doc  -->
- * @generated
- */
-
 public class Cancion
 {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
+	
 	
 	public String nombre;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	public String albun;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	public int anoLanzamiento;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
 	public int codigo;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public String interPrincipal;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
+        public String interPrincipal;
 	public String letra;
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public Cancion(){
-		super();
+	public Cancion(String nombre, String albun, int anoLanzamiento, String letra, String interPrincipal,  int codigo ){
+		this.albun = albun;
+                this.anoLanzamiento = anoLanzamiento;
+                this.codigo = codigo;
+                this.interPrincipal = interPrincipal;
+                this.letra = letra;
+                this.nombre = nombre;
 	}
 
 }
