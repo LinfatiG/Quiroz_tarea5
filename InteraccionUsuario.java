@@ -44,7 +44,7 @@ public class InteraccionUsuario
 	}
 	
 	public void salir() {
-		System.exit(10);
+		System.exit(0);
 	}
 
 }
